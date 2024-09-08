@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Biblioteca Municipal.exe" version="1.0.0.0" publicKeyToken="916d2633bacfafb1" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="icon_JanelaPrincipal.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Biblioteca Municipal" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Biblioteca Municipal.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opções de Manifesto UAC
+          Se desejar mudar o nível de Controle de Conta de Usuário do Windows, substitua o 
+          nó requestedExecutionLevel por um dos seguintes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Se deseja usar a Virtualização de Arquivos e Registro para compatibilidade 
+         com versões anteriores, exclua o nó requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Biblioteca Municipal.exe" size="406976">
+      <assemblyIdentity name="Biblioteca Municipal" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Vji1Bab8p2plLMyAAOXdqEzrbEP/fRtJVxBh8esHDF8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Biblioteca Municipal.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dbBiblioteca.mdf" size="8388608" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>cqB+QChk2kal2RkzZvIs5BrvSbb0PYKzPniQ6TrZj8s=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="dbBiblioteca_log.ldf" size="8388608" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>n31J2KQrDQ9tOaA6I/3reC6wzPBBAhMDkC5JioM6ShA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="icon_JanelaPrincipal.ico" size="16958">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>GuWfOFisgHPn9Vznu7QpHzLKRmhSsj+X54oL8rjr/VY=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=GRAFICA3\Grafica" issuerKeyHash="673f12f1a862ec5eae229d018fb716306716d19b" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>I0CbuZRPcsTE9d07VRD0L3Wf5hl//vgm3eJn7Mjvemg=</DigestValue></Reference></SignedInfo><SignatureValue>cNxWs3ayfbCfYHk7Id/S8pRVot+vTQVPPuDGhRN367uxpgsWUhw32xL5GOgIw5zbBlGtkTk2oNKFHW2sT4L6Cd4/95M/HPkpBdkcpIdShSF8RkSB4KP8pH4KqSEnkQF6kAIluChqmLPJr6GmARNS4EVBqKfWrTh5fV6VKMmlyN4=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>6QNhsx0C9wNogXz9dqK65w9vrQubYJUAbvCV5uJ5DT8ySeHLUGPr750a2kbeYFSfgWDiLajvNs2jrN6t9Yv6N/+wh8BsTZ3xxtpnkSfN2mCTfT64pnAWFzNQCOWbXMP9bIuFziqglW8mdHc7Xk8eUMsKsnlc2Vd+bQynuT/NhaE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="687aefc8ec67e2dd26f8fe7f19e69f752ff410553bddf5c4c4724f94b99b4023" Description="" Url=""><as:assemblyIdentity name="Biblioteca Municipal.exe" version="1.0.0.0" publicKeyToken="916d2633bacfafb1" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=GRAFICA3\Grafica</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ku/n3GP9jixIia0c+X5eJ747+53FOft9dnHn45VlgoY=</DigestValue></Reference></SignedInfo><SignatureValue>fEZpAnK4t22FK2A8Bp1OooEAWiv+XG/kUuEaVgG59rt54MjA7cTa6GzplmZD9kEjheK0Hqmp2Q+xntuaUpoRdtyD0qhLcyD2dchPx1Qk/4hWhESQF/2hb/E4rD5bd0Ami1y4NRqjRXJ5x8iOKhm3T0X1vY2it+veScZ6H1ah7pE=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>6QNhsx0C9wNogXz9dqK65w9vrQubYJUAbvCV5uJ5DT8ySeHLUGPr750a2kbeYFSfgWDiLajvNs2jrN6t9Yv6N/+wh8BsTZ3xxtpnkSfN2mCTfT64pnAWFzNQCOWbXMP9bIuFziqglW8mdHc7Xk8eUMsKsnlc2Vd+bQynuT/NhaE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUKgAwIBAgIQPcbb7jZGH59OIK/SMFI/5DANBgkqhkiG9w0BAQsFADArMSkwJwYDVQQDHiAARwBSAEEARgBJAEMAQQAzAFwARwByAGEAZgBpAGMAYTAeFw0xODA4MjgwMzE2MDlaFw0xOTA4MjgwOTE2MDlaMCsxKTAnBgNVBAMeIABHAFIAQQBGAEkAQwBBADMAXABHAHIAYQBmAGkAYwBhMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDpA2GzHQL3A2iBfP12orrnD2+tC5tglQBu8JXm4nkNPzJJ4ctQY+vvnRraRt5gVJ+BYOItqO82zaOs3q31i/o3/7CHwGxNnfHG2meRJ83aYJN9PrimcBYXM1AI5Ztcw/1si4XOKqCVbyZ0dzteTx5QywqyeVzZV35tDKe5P82FoQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAHtMPDJGhUo++uZ96DhYJ2xvQeM2pxgKdd6GYFTY5aQq2+DCXiQHY9GymBzv9/w7d4TLdTjgGKLoz7EDFdm6SlzvwK6NCij6DOSTZZuKn+YLp9G4suHxCxyZjAokyb5WvE6h6vALoQ+GVAbdwUiqC8mMa1+7SN4WtBteVlvojZt8</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
